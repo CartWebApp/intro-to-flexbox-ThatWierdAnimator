@@ -27,14 +27,21 @@
 /* We start writing our flexbox here. The above is just page setup */
 .flex-container {
   border:10px solid goldenrod;
+  display: flex;
+  flex-direction: column;
+}
+
+[class^="row"] {
+    display: flex;
+    flex-direction: row;
 }
 
 [class^="box"] {
-    
+  flex-grow: 1;
 }
 
 .box1 {
-    
+
 }
 
 .box2 {
