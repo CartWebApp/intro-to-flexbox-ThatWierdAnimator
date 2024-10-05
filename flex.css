@@ -37,7 +37,7 @@
 }
 
 [class^="box"] {
-  flex-grow: 2;
+  flex-grow: 1;
 }
 
 .box1 {
